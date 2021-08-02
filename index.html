@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnlyDogs</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <label for="dog-breed-choice">Choose a dog breed:</label>
+    <input class="main" list="dog-breed-choices" id="dog-breed-choice" name="dog-breed-choice" onchange="myFunction()" />
+    <datalist class="doggy" id="dog-breed-choices" >
+        <option value="affenpinscher">
+        <option value="african">
+        <option value="airedale">
+        <option value="akita">
+        <option value="appenzeller">
+        <option value="australian/shepherd">
+        <option value="basenji">
+        <option value="beagle">
+        <option value="bluetick">
+        <option value="borzoi">
+        <option value="bouvier">
+        <option value="boxer">
+        <option value="brabancon">
+        <option value="briard">
+        <option value="buhund/norwegian">
+        <option value="bulldog/boston">
+        <option value="bulldog/english">
+        <option value="bulldog/french">
+        <option value="bullterrier/staffordshire">
+        <option value="cairn">
+        <option value="cattledog/australian">
+        <option value="chihuahua">
+        <option value="chow">
+        <option value="clumber">
+        <option value="cockapoo">
+        <option value="collie/border">
+        <option value="coonhound">
+        <option value="corgi/cardigan">
+        <option value="cotondetulear">
+        <option value="dachshund">
+        <option value="dalmatian">
+        <option value="dane/great">
+        <option value="deerhound/scottish">
+        <option value="dhole">
+        <option value="dingo">
+        <option value="doberman">
+        <option value="elkhound/norwegian">
+        <option value="entlebucher">
+        <option value="eskimo">
+        <option value="finnish/lapphund">
+        <option value="frise/bichon">
+        <option value="germanshepherd">
+        <option value="greyhound/italian">
+        <option value="groenendael">
+        <option value="havanese">
+        <option value="hound/afghan">
+        <option value="hound/basset">
+        <option value="hound/blood">
+        <option value="hound/english">
+        <option value="hound/ibizan">
+        <option value="hound/plott">
+        <option value="hound/walker">
+        <option value="husky">
+        <option value="keeshond">
+        <option value="kelpie">
+        <option value="komondor">
+        <option value="kuvasz">
+        <option value="labradoodle">
+        <option value="labrador">
+        <option value="leonberg">
+        <option value="lhasa">
+        <option value="malamute">
+        <option value="malinois">
+        <option value="maltese">
+        <option value="mastiff/bull">
+        <option value="mastiff/english">
+        <option value="mastiff/tibetan">
+        <option value="mexicanhairless">
+        <option value="mix">
+        <option value="mountain/bernese">
+        <option value="mountain/swiss">
+        <option value="newfoundland">
+        <option value="otterhound">
+        <option value="ovcharka/caucasian">
+        <option value="papillon">
+        <option value="pekinese">
+        <option value="pembroke">
+        <option value="pinscher/miniature">
+        <option value="pitbull">
+        <option value="pointer/german">
+        <option value="pointer/germanlonghair">
+        <option value="pomeranian">
+        <option value="poodle/miniature">
+        <option value="poodle/standard">
+        <option value="poodle/toy">
+        <option value="pug">
+        <option value="puggle">
+        <option value="pyrenees">
+        <option value="redbone">
+        <option value="retriever/chesapeake">
+        <option value="retriever/curly">
+        <option value="retriever/flatcoated">
+        <option value="retriever/golden">
+        <option value="ridgeback/rhodesian">
+        <option value="rottweiler">
+        <option value="saluki">
+        <option value="samoyed">
+        <option value="schipperke">
+        <option value="schnauzer/giant">
+        <option value="schnauzer/miniature">
+        <option value="setter/english">
+        <option value="setter/gordon">
+        <option value="setter/irish">
+        <option value="sheepdog/english">
+        <option value="sheepdog/shetland">
+        <option value="shiba">
+        <option value="shihtzu">
+        <option value="spaniel/blenheim">
+        <option value="spaniel/brittany">
+        <option value="spaniel/cocker">
+        <option value="spaniel/irish">
+        <option value="spaniel/japanese">
+        <option value="spaniel/sussex">
+        <option value="spaniel/welsh">
+        <option value="springer/english">
+        <option value="stbernard">
+        <option value="terrier/american">
+        <option value="terrier/australian">
+        <option value="terrier/bedlington">
+        <option value="terrier/border">
+        <option value="terrier/dandie">
+        <option value="terrier/fox">
+        <option value="terrier/irish">
+        <option value="terrier/kerryblue">
+        <option value="terrier/lakeland">
+        <option value="terrier/norfolk">
+        <option value="terrier/norwich">
+        <option value="terrier/patterdale">
+        <option value="terrier/russell">
+        <option value="terrier/scottish">
+        <option value="terrier/sealyham">
+        <option value="terrier/silky">
+        <option value="terrier/tibetan">
+        <option value="terrier/toy">
+        <option value="terrier/westhighland">
+        <option value="terrier/wheaten">
+        <option value="terrier/yorkshire">
+        <option value="vizsla">
+        <option value="waterdog/spanish">
+        <option value="weimaraner">
+        <option value="whippet">
+        <option value="wolfhound/irish">
+
+    </datalist>
+    <button type="button" class="sub" onclick="extracter()">Show</button>
+   
+    <div class="doggos">
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
